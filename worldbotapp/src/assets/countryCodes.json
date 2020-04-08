@@ -1,0 +1,4 @@
+{
+  "iso2iso3": "http://country.io/iso3.json",
+  "iso2countryName": "http://country.io/names.json"
+}

@@ -1,0 +1,14 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-5">
+			Number of Bots in <span [innerHTML]="selectedCountryBot$ | async | countryNameFormatter">
+			</span>: 
+			{{ (selectedCountryBot$ | async)?.count }}
+		</div>
+		<div class="col-sm-4">
+		    <button (click)="handleIncrementClick()">[+] Increase</button> 
+		    <button (click)="handleDecrementClick()">[-] Decrease</button>
+		</div>
+	</div>
+
+</div>
